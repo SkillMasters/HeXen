@@ -1,15 +1,78 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset='utf-8' />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
     <title>SkillMasters Library</title>
-    <link rel='stylesheet' href='style.css' />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <h1>Work in progress...</h1>
-    <a href='./XOGame/index.html'>Tic Tac Toe Alpha 0.1</a>
-    <a href='./HeXen/index.html'>HeXen [In Development]</a>
-    <a href='./RedditViewer/index.html'>RedditViewer [In Development]</a>
-    <a href='./PHPFool/index.html'>PHPFool [In Development]</a>
+<div id="wrapper">
+    <div id="header"></div> 
+    
+    <div id="menu">
+        <ul>
+            <li class="projects"><a class="current">Главная</a></li>
+            <li class="projects"><a>Наши проекты</a></li>
+            <li class="forum"><a>Форум</a></li>
+            <li class="files"><a>Файлы</a></li>
+            <li class="contacts"><a>Контакты</a></li>
+        </ul>
+    </div>
+    
+    <div id="content_wrapper">
+        <div class="sidebar">
+            <h1>Быстрый доступ</h1>
+            <ul>
+                <li><a href="#">Famous Anime Fight</a></li>
+                <li><a href="#">Avatar's Arena Online</a></li>
+                <li><a href="#">FUNSHOT</a></li>
+                <li><a href="#">JentuBot</a></li>
+                <li><a href="#">KeXted</a></li>
+                <li><a href="#">HeXen</a></li>
+                <li><a href="#">MunchkinMobile</a></li>
+                <li><a href="#">Pyureshka&trade;</a></li>
+            </ul>
+            <div class="horizontal_divider"></div>
+        </div> 
+        
+        <div id="content">
+            <center><b>Loading...</b></center>
+            <div class="horizontal_divider"></div>
+        </div>
+        
+        <div class="sidebar">
+            <h1>Новости</h1>
+            <div class="latest_news">
+                <h2><a href="#">Восстановление сайта</a></h2>
+                <p>С <FONT COLOR=red>06.12.2017</FONT> г. сайт снова функционирует. Обновлен дизайн. Также, в ближайшее время возможны многочисленные правки, миграции и прочее.</p>
+            </div>
+            <div class="latest_news">
+                <h2><a href="#">Новая версия FaF</a></h2>
+                <p>На <FONT COLOR=red>08.04.2013</FONT> г. запланирован выход новой версии нашего файтинга.</p>
+            </div>
+            <div class="latest_news">
+                <h2><a href="#">Запланирован новый проект</a></h2>
+                <p>Недавно был запланирован наш новый проект - Avatar's Arena Online. На сей раз мы переходим к 3D графике!</p>
+            </div>
+
+            <div class="horizontal_divider"></div>
+
+            <h1>Видео</h1>
+            <div class="latest_news">
+                <div class="video_preview"><span></span><a href="https://youtu.be/Rt8P3d9glnM"><img src="images/preview/video_1.jpg" /></a></div>
+            </div>
+            <div class="latest_news">
+                <div class="video_preview"><span></span><a href="https://youtu.be/e95EtLc-fjw"><img src="images/preview/video_2.jpg" /></a></div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="footer">Copyright © 2013-2017 SkillMasters IGD</div>
+</div>
+
+<script src='js/jquery-3.2.1.min.js'></script>
+<script src='js/skillmasters.js'></script>
 </body>
 </html>
