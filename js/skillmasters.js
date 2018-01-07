@@ -57,7 +57,7 @@ function loadVideo() {
                 frameborder: 0,
                 gesture: "media",
                 allow: "encrypted-media",
-                allowfullscren: 1
+                allowfullscreen: "allowfullscreen"
             })
         )
     );
