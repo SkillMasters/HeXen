@@ -15,7 +15,7 @@ body {
 }
 
 img {
-    border: none;    
+    border: none;
     -webkit-user-select: none;
     -webkit-user-drag: none;
     -moz-user-select: none;
@@ -50,6 +50,19 @@ h2 {
 }
 h2 a { color: #fff; text-decoration: none; }
 h2 a:hover { color: #b52700; }
+
+hr {
+    display: block;
+    clear: both;
+    width: 100%;
+    height: 2px;
+    border: none;
+    background: url(../images/horizontal_divider.jpg) bottom repeat-x;
+}
+hr.hr-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
 /* Overlay and video frame */
 
@@ -197,7 +210,7 @@ h2 a:hover { color: #b52700; }
     width: 180px;
     float: left;
     margin: 0px 5px;
-    padding: 20px 19px 0px 19px;
+    padding: 12px 19px;
     background: #1b1919;
     border: 1px solid #363434;    
 }
@@ -236,6 +249,11 @@ h2 a:hover { color: #b52700; }
 .latest_news {
     clear: both;
     margin-bottom: 10px;
+}
+
+.latest_news .news_date {
+    color: #cc0000;
+    font-weight: normal;
 }
 
 .video_preview {
@@ -309,15 +327,6 @@ h2 a:hover { color: #b52700; }
     text-decoration: none;
     border: none; 
     background: url(../images/button.png) no-repeat;
-}
-
-.horizontal_divider {
-    clear: both;
-    width: 100%;
-    height: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background: url(../images/horizontal_divider.jpg) bottom repeat-x;
 }
 
 .navigation {
